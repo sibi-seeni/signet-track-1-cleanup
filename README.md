@@ -2,7 +2,7 @@
 
 My personal copy of Part B of **Trust the Source**: Team Signet's H4D project with NIWC Pacific
 (sponsor: Dr. Gasbarro) on detecting poisoned or untrustworthy documents in RAG systems.
-My teammate wrote the code; I ran it live and wrote up the results on Nov 8–9, 2026.
+My teammate Adithya Vardhan Selvam wrote the code; I ran it live and wrote up the results on Nov 8–9, 2026.
 
 ## What it is
 
