@@ -1,0 +1,5 @@
+Condition,Evaluated,TP,FP,FN,TN,Detection %,False flag %,Coverage %
+benign_conflict,58,0,0,0,58,,0.0,100.0
+clean,100,0,0,0,100,,0.0,100.0
+majority_poison,80,60,0,0,20,100.0,0.0,100.0
+minority_poison,65,20,0,0,45,100.0,0.0,100.0

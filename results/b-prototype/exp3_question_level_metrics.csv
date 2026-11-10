@@ -1,0 +1,5 @@
+Condition,Total cases,Attack cases,Attacks detected,Detection %,Cases with false alarms
+benign_conflict,20,0,0,,0
+clean,20,0,0,,0
+majority_poison,20,20,20,100.0,0
+minority_poison,20,20,20,100.0,0

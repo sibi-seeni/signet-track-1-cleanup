@@ -1,0 +1,2402 @@
+{
+  "q01__clean__p1": {
+    "question_id": "q01",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#175",
+    "poisoned": false
+  },
+  "q01__clean__p2": {
+    "question_id": "q01",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#174",
+    "poisoned": false
+  },
+  "q01__clean__p3": {
+    "question_id": "q01",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#341",
+    "poisoned": false
+  },
+  "q01__clean__p4": {
+    "question_id": "q01",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#337",
+    "poisoned": false
+  },
+  "q01__clean__p5": {
+    "question_id": "q01",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#187",
+    "poisoned": false
+  },
+  "q01__benign_conflict__p1": {
+    "question_id": "q01",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#172",
+    "poisoned": false
+  },
+  "q01__benign_conflict__p2": {
+    "question_id": "q01",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#175",
+    "poisoned": false
+  },
+  "q01__benign_conflict__p3": {
+    "question_id": "q01",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#174",
+    "poisoned": false
+  },
+  "q01__benign_conflict__p4": {
+    "question_id": "q01",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#341",
+    "poisoned": false
+  },
+  "q01__benign_conflict__p5": {
+    "question_id": "q01",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#318",
+    "poisoned": false
+  },
+  "q01__minority_poison__p1": {
+    "question_id": "q01",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#172",
+    "poisoned": false
+  },
+  "q01__minority_poison__p2": {
+    "question_id": "q01",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q01-0",
+    "poisoned": true
+  },
+  "q01__minority_poison__p3": {
+    "question_id": "q01",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#175",
+    "poisoned": false
+  },
+  "q01__minority_poison__p4": {
+    "question_id": "q01",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#174",
+    "poisoned": false
+  },
+  "q01__minority_poison__p5": {
+    "question_id": "q01",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#341",
+    "poisoned": false
+  },
+  "q01__majority_poison__p1": {
+    "question_id": "q01",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#172",
+    "poisoned": false
+  },
+  "q01__majority_poison__p2": {
+    "question_id": "q01",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q01-0",
+    "poisoned": true
+  },
+  "q01__majority_poison__p3": {
+    "question_id": "q01",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q01-1",
+    "poisoned": true
+  },
+  "q01__majority_poison__p4": {
+    "question_id": "q01",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q01-2",
+    "poisoned": true
+  },
+  "q01__majority_poison__p5": {
+    "question_id": "q01",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#175",
+    "poisoned": false
+  },
+  "q02__clean__p1": {
+    "question_id": "q02",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#182",
+    "poisoned": false
+  },
+  "q02__clean__p2": {
+    "question_id": "q02",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#181",
+    "poisoned": false
+  },
+  "q02__clean__p3": {
+    "question_id": "q02",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#218",
+    "poisoned": false
+  },
+  "q02__clean__p4": {
+    "question_id": "q02",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#183",
+    "poisoned": false
+  },
+  "q02__clean__p5": {
+    "question_id": "q02",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#23",
+    "poisoned": false
+  },
+  "q02__benign_conflict__p1": {
+    "question_id": "q02",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#182",
+    "poisoned": false
+  },
+  "q02__benign_conflict__p2": {
+    "question_id": "q02",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#179",
+    "poisoned": false
+  },
+  "q02__benign_conflict__p3": {
+    "question_id": "q02",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#181",
+    "poisoned": false
+  },
+  "q02__benign_conflict__p4": {
+    "question_id": "q02",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#178",
+    "poisoned": false
+  },
+  "q02__benign_conflict__p5": {
+    "question_id": "q02",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#218",
+    "poisoned": false
+  },
+  "q02__minority_poison__p1": {
+    "question_id": "q02",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q02-0",
+    "poisoned": true
+  },
+  "q02__minority_poison__p2": {
+    "question_id": "q02",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#182",
+    "poisoned": false
+  },
+  "q02__minority_poison__p3": {
+    "question_id": "q02",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#179",
+    "poisoned": false
+  },
+  "q02__minority_poison__p4": {
+    "question_id": "q02",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#181",
+    "poisoned": false
+  },
+  "q02__minority_poison__p5": {
+    "question_id": "q02",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#178",
+    "poisoned": false
+  },
+  "q02__majority_poison__p1": {
+    "question_id": "q02",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q02-0",
+    "poisoned": true
+  },
+  "q02__majority_poison__p2": {
+    "question_id": "q02",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q02-1",
+    "poisoned": true
+  },
+  "q02__majority_poison__p3": {
+    "question_id": "q02",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q02-2",
+    "poisoned": true
+  },
+  "q02__majority_poison__p4": {
+    "question_id": "q02",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#182",
+    "poisoned": false
+  },
+  "q02__majority_poison__p5": {
+    "question_id": "q02",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#179",
+    "poisoned": false
+  },
+  "q03__clean__p1": {
+    "question_id": "q03",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#210",
+    "poisoned": false
+  },
+  "q03__clean__p2": {
+    "question_id": "q03",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#209",
+    "poisoned": false
+  },
+  "q03__clean__p3": {
+    "question_id": "q03",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#211",
+    "poisoned": false
+  },
+  "q03__clean__p4": {
+    "question_id": "q03",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1093",
+    "poisoned": false
+  },
+  "q03__clean__p5": {
+    "question_id": "q03",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#362",
+    "poisoned": false
+  },
+  "q03__benign_conflict__p1": {
+    "question_id": "q03",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#210",
+    "poisoned": false
+  },
+  "q03__benign_conflict__p2": {
+    "question_id": "q03",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#209",
+    "poisoned": false
+  },
+  "q03__benign_conflict__p3": {
+    "question_id": "q03",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#207",
+    "poisoned": false
+  },
+  "q03__benign_conflict__p4": {
+    "question_id": "q03",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#208",
+    "poisoned": false
+  },
+  "q03__benign_conflict__p5": {
+    "question_id": "q03",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#211",
+    "poisoned": false
+  },
+  "q03__minority_poison__p1": {
+    "question_id": "q03",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q03-0",
+    "poisoned": true
+  },
+  "q03__minority_poison__p2": {
+    "question_id": "q03",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#210",
+    "poisoned": false
+  },
+  "q03__minority_poison__p3": {
+    "question_id": "q03",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#209",
+    "poisoned": false
+  },
+  "q03__minority_poison__p4": {
+    "question_id": "q03",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#207",
+    "poisoned": false
+  },
+  "q03__minority_poison__p5": {
+    "question_id": "q03",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#208",
+    "poisoned": false
+  },
+  "q03__majority_poison__p1": {
+    "question_id": "q03",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q03-0",
+    "poisoned": true
+  },
+  "q03__majority_poison__p2": {
+    "question_id": "q03",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q03-1",
+    "poisoned": true
+  },
+  "q03__majority_poison__p3": {
+    "question_id": "q03",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q03-2",
+    "poisoned": true
+  },
+  "q03__majority_poison__p4": {
+    "question_id": "q03",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#210",
+    "poisoned": false
+  },
+  "q03__majority_poison__p5": {
+    "question_id": "q03",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#209",
+    "poisoned": false
+  },
+  "q04__clean__p1": {
+    "question_id": "q04",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#293",
+    "poisoned": false
+  },
+  "q04__clean__p2": {
+    "question_id": "q04",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#58",
+    "poisoned": false
+  },
+  "q04__clean__p3": {
+    "question_id": "q04",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#777",
+    "poisoned": false
+  },
+  "q04__clean__p4": {
+    "question_id": "q04",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#300",
+    "poisoned": false
+  },
+  "q04__clean__p5": {
+    "question_id": "q04",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#294",
+    "poisoned": false
+  },
+  "q04__benign_conflict__p1": {
+    "question_id": "q04",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#273",
+    "poisoned": false
+  },
+  "q04__benign_conflict__p2": {
+    "question_id": "q04",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#293",
+    "poisoned": false
+  },
+  "q04__benign_conflict__p3": {
+    "question_id": "q04",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#272",
+    "poisoned": false
+  },
+  "q04__benign_conflict__p4": {
+    "question_id": "q04",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#53",
+    "poisoned": false
+  },
+  "q04__benign_conflict__p5": {
+    "question_id": "q04",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#58",
+    "poisoned": false
+  },
+  "q04__minority_poison__p1": {
+    "question_id": "q04",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#273",
+    "poisoned": false
+  },
+  "q04__minority_poison__p2": {
+    "question_id": "q04",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q04-0",
+    "poisoned": true
+  },
+  "q04__minority_poison__p3": {
+    "question_id": "q04",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#293",
+    "poisoned": false
+  },
+  "q04__minority_poison__p4": {
+    "question_id": "q04",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#272",
+    "poisoned": false
+  },
+  "q04__minority_poison__p5": {
+    "question_id": "q04",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#53",
+    "poisoned": false
+  },
+  "q04__majority_poison__p1": {
+    "question_id": "q04",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#273",
+    "poisoned": false
+  },
+  "q04__majority_poison__p2": {
+    "question_id": "q04",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q04-0",
+    "poisoned": true
+  },
+  "q04__majority_poison__p3": {
+    "question_id": "q04",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q04-1",
+    "poisoned": true
+  },
+  "q04__majority_poison__p4": {
+    "question_id": "q04",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q04-2",
+    "poisoned": true
+  },
+  "q04__majority_poison__p5": {
+    "question_id": "q04",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#293",
+    "poisoned": false
+  },
+  "q08__clean__p1": {
+    "question_id": "q08",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#839",
+    "poisoned": false
+  },
+  "q08__clean__p2": {
+    "question_id": "q08",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#838",
+    "poisoned": false
+  },
+  "q08__clean__p3": {
+    "question_id": "q08",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#598",
+    "poisoned": false
+  },
+  "q08__clean__p4": {
+    "question_id": "q08",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#193",
+    "poisoned": false
+  },
+  "q08__clean__p5": {
+    "question_id": "q08",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#194",
+    "poisoned": false
+  },
+  "q08__benign_conflict__p1": {
+    "question_id": "q08",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#816",
+    "poisoned": false
+  },
+  "q08__benign_conflict__p2": {
+    "question_id": "q08",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#839",
+    "poisoned": false
+  },
+  "q08__benign_conflict__p3": {
+    "question_id": "q08",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#817",
+    "poisoned": false
+  },
+  "q08__benign_conflict__p4": {
+    "question_id": "q08",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#572",
+    "poisoned": false
+  },
+  "q08__benign_conflict__p5": {
+    "question_id": "q08",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#838",
+    "poisoned": false
+  },
+  "q08__minority_poison__p1": {
+    "question_id": "q08",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q08-0",
+    "poisoned": true
+  },
+  "q08__minority_poison__p2": {
+    "question_id": "q08",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#816",
+    "poisoned": false
+  },
+  "q08__minority_poison__p3": {
+    "question_id": "q08",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#839",
+    "poisoned": false
+  },
+  "q08__minority_poison__p4": {
+    "question_id": "q08",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#817",
+    "poisoned": false
+  },
+  "q08__minority_poison__p5": {
+    "question_id": "q08",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#572",
+    "poisoned": false
+  },
+  "q08__majority_poison__p1": {
+    "question_id": "q08",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q08-0",
+    "poisoned": true
+  },
+  "q08__majority_poison__p2": {
+    "question_id": "q08",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q08-1",
+    "poisoned": true
+  },
+  "q08__majority_poison__p3": {
+    "question_id": "q08",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q08-2",
+    "poisoned": true
+  },
+  "q08__majority_poison__p4": {
+    "question_id": "q08",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#816",
+    "poisoned": false
+  },
+  "q08__majority_poison__p5": {
+    "question_id": "q08",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#839",
+    "poisoned": false
+  },
+  "q09__clean__p1": {
+    "question_id": "q09",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#892",
+    "poisoned": false
+  },
+  "q09__clean__p2": {
+    "question_id": "q09",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#891",
+    "poisoned": false
+  },
+  "q09__clean__p3": {
+    "question_id": "q09",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1081",
+    "poisoned": false
+  },
+  "q09__clean__p4": {
+    "question_id": "q09",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#196",
+    "poisoned": false
+  },
+  "q09__clean__p5": {
+    "question_id": "q09",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1080",
+    "poisoned": false
+  },
+  "q09__benign_conflict__p1": {
+    "question_id": "q09",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#867",
+    "poisoned": false
+  },
+  "q09__benign_conflict__p2": {
+    "question_id": "q09",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#892",
+    "poisoned": false
+  },
+  "q09__benign_conflict__p3": {
+    "question_id": "q09",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#868",
+    "poisoned": false
+  },
+  "q09__benign_conflict__p4": {
+    "question_id": "q09",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#891",
+    "poisoned": false
+  },
+  "q09__benign_conflict__p5": {
+    "question_id": "q09",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#1081",
+    "poisoned": false
+  },
+  "q09__minority_poison__p1": {
+    "question_id": "q09",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#867",
+    "poisoned": false
+  },
+  "q09__minority_poison__p2": {
+    "question_id": "q09",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q09-0",
+    "poisoned": true
+  },
+  "q09__minority_poison__p3": {
+    "question_id": "q09",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#892",
+    "poisoned": false
+  },
+  "q09__minority_poison__p4": {
+    "question_id": "q09",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#868",
+    "poisoned": false
+  },
+  "q09__minority_poison__p5": {
+    "question_id": "q09",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#891",
+    "poisoned": false
+  },
+  "q09__majority_poison__p1": {
+    "question_id": "q09",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#867",
+    "poisoned": false
+  },
+  "q09__majority_poison__p2": {
+    "question_id": "q09",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q09-0",
+    "poisoned": true
+  },
+  "q09__majority_poison__p3": {
+    "question_id": "q09",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q09-1",
+    "poisoned": true
+  },
+  "q09__majority_poison__p4": {
+    "question_id": "q09",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q09-2",
+    "poisoned": true
+  },
+  "q09__majority_poison__p5": {
+    "question_id": "q09",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#892",
+    "poisoned": false
+  },
+  "q11__clean__p1": {
+    "question_id": "q11",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1100",
+    "poisoned": false
+  },
+  "q11__clean__p2": {
+    "question_id": "q11",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#385",
+    "poisoned": false
+  },
+  "q11__clean__p3": {
+    "question_id": "q11",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#302",
+    "poisoned": false
+  },
+  "q11__clean__p4": {
+    "question_id": "q11",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1093",
+    "poisoned": false
+  },
+  "q11__clean__p5": {
+    "question_id": "q11",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#303",
+    "poisoned": false
+  },
+  "q11__benign_conflict__p1": {
+    "question_id": "q11",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#1100",
+    "poisoned": false
+  },
+  "q11__benign_conflict__p2": {
+    "question_id": "q11",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#981",
+    "poisoned": false
+  },
+  "q11__benign_conflict__p3": {
+    "question_id": "q11",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#385",
+    "poisoned": false
+  },
+  "q11__benign_conflict__p4": {
+    "question_id": "q11",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#363",
+    "poisoned": false
+  },
+  "q11__benign_conflict__p5": {
+    "question_id": "q11",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#302",
+    "poisoned": false
+  },
+  "q11__minority_poison__p1": {
+    "question_id": "q11",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q11-0",
+    "poisoned": true
+  },
+  "q11__minority_poison__p2": {
+    "question_id": "q11",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#1100",
+    "poisoned": false
+  },
+  "q11__minority_poison__p3": {
+    "question_id": "q11",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#981",
+    "poisoned": false
+  },
+  "q11__minority_poison__p4": {
+    "question_id": "q11",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#385",
+    "poisoned": false
+  },
+  "q11__minority_poison__p5": {
+    "question_id": "q11",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#363",
+    "poisoned": false
+  },
+  "q11__majority_poison__p1": {
+    "question_id": "q11",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q11-0",
+    "poisoned": true
+  },
+  "q11__majority_poison__p2": {
+    "question_id": "q11",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q11-1",
+    "poisoned": true
+  },
+  "q11__majority_poison__p3": {
+    "question_id": "q11",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q11-2",
+    "poisoned": true
+  },
+  "q11__majority_poison__p4": {
+    "question_id": "q11",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#1100",
+    "poisoned": false
+  },
+  "q11__majority_poison__p5": {
+    "question_id": "q11",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#981",
+    "poisoned": false
+  },
+  "q13__clean__p1": {
+    "question_id": "q13",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#63",
+    "poisoned": false
+  },
+  "q13__clean__p2": {
+    "question_id": "q13",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1057",
+    "poisoned": false
+  },
+  "q13__clean__p3": {
+    "question_id": "q13",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1056",
+    "poisoned": false
+  },
+  "q13__clean__p4": {
+    "question_id": "q13",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#62",
+    "poisoned": false
+  },
+  "q13__clean__p5": {
+    "question_id": "q13",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1058",
+    "poisoned": false
+  },
+  "q13__benign_conflict__p1": {
+    "question_id": "q13",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#63",
+    "poisoned": false
+  },
+  "q13__benign_conflict__p2": {
+    "question_id": "q13",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#58",
+    "poisoned": false
+  },
+  "q13__benign_conflict__p3": {
+    "question_id": "q13",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#1057",
+    "poisoned": false
+  },
+  "q13__benign_conflict__p4": {
+    "question_id": "q13",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#933",
+    "poisoned": false
+  },
+  "q13__benign_conflict__p5": {
+    "question_id": "q13",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#1056",
+    "poisoned": false
+  },
+  "q13__minority_poison__p1": {
+    "question_id": "q13",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q13-0",
+    "poisoned": true
+  },
+  "q13__minority_poison__p2": {
+    "question_id": "q13",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#63",
+    "poisoned": false
+  },
+  "q13__minority_poison__p3": {
+    "question_id": "q13",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#58",
+    "poisoned": false
+  },
+  "q13__minority_poison__p4": {
+    "question_id": "q13",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#1057",
+    "poisoned": false
+  },
+  "q13__minority_poison__p5": {
+    "question_id": "q13",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#933",
+    "poisoned": false
+  },
+  "q13__majority_poison__p1": {
+    "question_id": "q13",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q13-0",
+    "poisoned": true
+  },
+  "q13__majority_poison__p2": {
+    "question_id": "q13",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q13-1",
+    "poisoned": true
+  },
+  "q13__majority_poison__p3": {
+    "question_id": "q13",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q13-2",
+    "poisoned": true
+  },
+  "q13__majority_poison__p4": {
+    "question_id": "q13",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#63",
+    "poisoned": false
+  },
+  "q13__majority_poison__p5": {
+    "question_id": "q13",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#58",
+    "poisoned": false
+  },
+  "q14__clean__p1": {
+    "question_id": "q14",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#201",
+    "poisoned": false
+  },
+  "q14__clean__p2": {
+    "question_id": "q14",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#200",
+    "poisoned": false
+  },
+  "q14__clean__p3": {
+    "question_id": "q14",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#267",
+    "poisoned": false
+  },
+  "q14__clean__p4": {
+    "question_id": "q14",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#190",
+    "poisoned": false
+  },
+  "q14__clean__p5": {
+    "question_id": "q14",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#192",
+    "poisoned": false
+  },
+  "q14__benign_conflict__p1": {
+    "question_id": "q14",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#198",
+    "poisoned": false
+  },
+  "q14__benign_conflict__p2": {
+    "question_id": "q14",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#201",
+    "poisoned": false
+  },
+  "q14__benign_conflict__p3": {
+    "question_id": "q14",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#253",
+    "poisoned": false
+  },
+  "q14__benign_conflict__p4": {
+    "question_id": "q14",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#200",
+    "poisoned": false
+  },
+  "q14__benign_conflict__p5": {
+    "question_id": "q14",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#267",
+    "poisoned": false
+  },
+  "q14__minority_poison__p1": {
+    "question_id": "q14",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#198",
+    "poisoned": false
+  },
+  "q14__minority_poison__p2": {
+    "question_id": "q14",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q14-0",
+    "poisoned": true
+  },
+  "q14__minority_poison__p3": {
+    "question_id": "q14",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#201",
+    "poisoned": false
+  },
+  "q14__minority_poison__p4": {
+    "question_id": "q14",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#253",
+    "poisoned": false
+  },
+  "q14__minority_poison__p5": {
+    "question_id": "q14",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#200",
+    "poisoned": false
+  },
+  "q14__majority_poison__p1": {
+    "question_id": "q14",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#198",
+    "poisoned": false
+  },
+  "q14__majority_poison__p2": {
+    "question_id": "q14",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q14-0",
+    "poisoned": true
+  },
+  "q14__majority_poison__p3": {
+    "question_id": "q14",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q14-1",
+    "poisoned": true
+  },
+  "q14__majority_poison__p4": {
+    "question_id": "q14",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q14-2",
+    "poisoned": true
+  },
+  "q14__majority_poison__p5": {
+    "question_id": "q14",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#201",
+    "poisoned": false
+  },
+  "q17__clean__p1": {
+    "question_id": "q17",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#293",
+    "poisoned": false
+  },
+  "q17__clean__p2": {
+    "question_id": "q17",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#292",
+    "poisoned": false
+  },
+  "q17__clean__p3": {
+    "question_id": "q17",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#310",
+    "poisoned": false
+  },
+  "q17__clean__p4": {
+    "question_id": "q17",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#300",
+    "poisoned": false
+  },
+  "q17__clean__p5": {
+    "question_id": "q17",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#301",
+    "poisoned": false
+  },
+  "q17__benign_conflict__p1": {
+    "question_id": "q17",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#272",
+    "poisoned": false
+  },
+  "q17__benign_conflict__p2": {
+    "question_id": "q17",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#293",
+    "poisoned": false
+  },
+  "q17__benign_conflict__p3": {
+    "question_id": "q17",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#292",
+    "poisoned": false
+  },
+  "q17__benign_conflict__p4": {
+    "question_id": "q17",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#310",
+    "poisoned": false
+  },
+  "q17__benign_conflict__p5": {
+    "question_id": "q17",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#295",
+    "poisoned": false
+  },
+  "q17__minority_poison__p1": {
+    "question_id": "q17",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#272",
+    "poisoned": false
+  },
+  "q17__minority_poison__p2": {
+    "question_id": "q17",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q17-0",
+    "poisoned": true
+  },
+  "q17__minority_poison__p3": {
+    "question_id": "q17",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#293",
+    "poisoned": false
+  },
+  "q17__minority_poison__p4": {
+    "question_id": "q17",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#292",
+    "poisoned": false
+  },
+  "q17__minority_poison__p5": {
+    "question_id": "q17",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#310",
+    "poisoned": false
+  },
+  "q17__majority_poison__p1": {
+    "question_id": "q17",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#272",
+    "poisoned": false
+  },
+  "q17__majority_poison__p2": {
+    "question_id": "q17",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q17-0",
+    "poisoned": true
+  },
+  "q17__majority_poison__p3": {
+    "question_id": "q17",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q17-1",
+    "poisoned": true
+  },
+  "q17__majority_poison__p4": {
+    "question_id": "q17",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q17-2",
+    "poisoned": true
+  },
+  "q17__majority_poison__p5": {
+    "question_id": "q17",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#293",
+    "poisoned": false
+  },
+  "q18__clean__p1": {
+    "question_id": "q18",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#794",
+    "poisoned": false
+  },
+  "q18__clean__p2": {
+    "question_id": "q18",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#856",
+    "poisoned": false
+  },
+  "q18__clean__p3": {
+    "question_id": "q18",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#795",
+    "poisoned": false
+  },
+  "q18__clean__p4": {
+    "question_id": "q18",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#321",
+    "poisoned": false
+  },
+  "q18__clean__p5": {
+    "question_id": "q18",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#131",
+    "poisoned": false
+  },
+  "q18__benign_conflict__p1": {
+    "question_id": "q18",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#794",
+    "poisoned": false
+  },
+  "q18__benign_conflict__p2": {
+    "question_id": "q18",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#770",
+    "poisoned": false
+  },
+  "q18__benign_conflict__p3": {
+    "question_id": "q18",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#856",
+    "poisoned": false
+  },
+  "q18__benign_conflict__p4": {
+    "question_id": "q18",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#795",
+    "poisoned": false
+  },
+  "q18__benign_conflict__p5": {
+    "question_id": "q18",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#321",
+    "poisoned": false
+  },
+  "q18__minority_poison__p1": {
+    "question_id": "q18",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q18-0",
+    "poisoned": true
+  },
+  "q18__minority_poison__p2": {
+    "question_id": "q18",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#794",
+    "poisoned": false
+  },
+  "q18__minority_poison__p3": {
+    "question_id": "q18",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#770",
+    "poisoned": false
+  },
+  "q18__minority_poison__p4": {
+    "question_id": "q18",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#856",
+    "poisoned": false
+  },
+  "q18__minority_poison__p5": {
+    "question_id": "q18",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#795",
+    "poisoned": false
+  },
+  "q18__majority_poison__p1": {
+    "question_id": "q18",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q18-0",
+    "poisoned": true
+  },
+  "q18__majority_poison__p2": {
+    "question_id": "q18",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q18-1",
+    "poisoned": true
+  },
+  "q18__majority_poison__p3": {
+    "question_id": "q18",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q18-2",
+    "poisoned": true
+  },
+  "q18__majority_poison__p4": {
+    "question_id": "q18",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#794",
+    "poisoned": false
+  },
+  "q18__majority_poison__p5": {
+    "question_id": "q18",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#770",
+    "poisoned": false
+  },
+  "q20__clean__p1": {
+    "question_id": "q20",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1063",
+    "poisoned": false
+  },
+  "q20__clean__p2": {
+    "question_id": "q20",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1062",
+    "poisoned": false
+  },
+  "q20__clean__p3": {
+    "question_id": "q20",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#208",
+    "poisoned": false
+  },
+  "q20__clean__p4": {
+    "question_id": "q20",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#362",
+    "poisoned": false
+  },
+  "q20__clean__p5": {
+    "question_id": "q20",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1093",
+    "poisoned": false
+  },
+  "q20__benign_conflict__p1": {
+    "question_id": "q20",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#1063",
+    "poisoned": false
+  },
+  "q20__benign_conflict__p2": {
+    "question_id": "q20",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#944",
+    "poisoned": false
+  },
+  "q20__benign_conflict__p3": {
+    "question_id": "q20",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#945",
+    "poisoned": false
+  },
+  "q20__benign_conflict__p4": {
+    "question_id": "q20",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#1062",
+    "poisoned": false
+  },
+  "q20__benign_conflict__p5": {
+    "question_id": "q20",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#172",
+    "poisoned": false
+  },
+  "q20__minority_poison__p1": {
+    "question_id": "q20",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q20-0",
+    "poisoned": true
+  },
+  "q20__minority_poison__p2": {
+    "question_id": "q20",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#1063",
+    "poisoned": false
+  },
+  "q20__minority_poison__p3": {
+    "question_id": "q20",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#944",
+    "poisoned": false
+  },
+  "q20__minority_poison__p4": {
+    "question_id": "q20",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#945",
+    "poisoned": false
+  },
+  "q20__minority_poison__p5": {
+    "question_id": "q20",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#1062",
+    "poisoned": false
+  },
+  "q20__majority_poison__p1": {
+    "question_id": "q20",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q20-0",
+    "poisoned": true
+  },
+  "q20__majority_poison__p2": {
+    "question_id": "q20",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q20-1",
+    "poisoned": true
+  },
+  "q20__majority_poison__p3": {
+    "question_id": "q20",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q20-2",
+    "poisoned": true
+  },
+  "q20__majority_poison__p4": {
+    "question_id": "q20",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#1063",
+    "poisoned": false
+  },
+  "q20__majority_poison__p5": {
+    "question_id": "q20",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#944",
+    "poisoned": false
+  },
+  "q21__clean__p1": {
+    "question_id": "q21",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#210",
+    "poisoned": false
+  },
+  "q21__clean__p2": {
+    "question_id": "q21",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#211",
+    "poisoned": false
+  },
+  "q21__clean__p3": {
+    "question_id": "q21",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#209",
+    "poisoned": false
+  },
+  "q21__clean__p4": {
+    "question_id": "q21",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1093",
+    "poisoned": false
+  },
+  "q21__clean__p5": {
+    "question_id": "q21",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#362",
+    "poisoned": false
+  },
+  "q21__benign_conflict__p1": {
+    "question_id": "q21",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#208",
+    "poisoned": false
+  },
+  "q21__benign_conflict__p2": {
+    "question_id": "q21",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#210",
+    "poisoned": false
+  },
+  "q21__benign_conflict__p3": {
+    "question_id": "q21",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#207",
+    "poisoned": false
+  },
+  "q21__benign_conflict__p4": {
+    "question_id": "q21",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#211",
+    "poisoned": false
+  },
+  "q21__benign_conflict__p5": {
+    "question_id": "q21",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#209",
+    "poisoned": false
+  },
+  "q21__minority_poison__p1": {
+    "question_id": "q21",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#208",
+    "poisoned": false
+  },
+  "q21__minority_poison__p2": {
+    "question_id": "q21",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q21-0",
+    "poisoned": true
+  },
+  "q21__minority_poison__p3": {
+    "question_id": "q21",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#210",
+    "poisoned": false
+  },
+  "q21__minority_poison__p4": {
+    "question_id": "q21",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#207",
+    "poisoned": false
+  },
+  "q21__minority_poison__p5": {
+    "question_id": "q21",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#211",
+    "poisoned": false
+  },
+  "q21__majority_poison__p1": {
+    "question_id": "q21",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#208",
+    "poisoned": false
+  },
+  "q21__majority_poison__p2": {
+    "question_id": "q21",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q21-0",
+    "poisoned": true
+  },
+  "q21__majority_poison__p3": {
+    "question_id": "q21",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q21-1",
+    "poisoned": true
+  },
+  "q21__majority_poison__p4": {
+    "question_id": "q21",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q21-2",
+    "poisoned": true
+  },
+  "q21__majority_poison__p5": {
+    "question_id": "q21",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#210",
+    "poisoned": false
+  },
+  "q22__clean__p1": {
+    "question_id": "q22",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#936",
+    "poisoned": false
+  },
+  "q22__clean__p2": {
+    "question_id": "q22",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#55",
+    "poisoned": false
+  },
+  "q22__clean__p3": {
+    "question_id": "q22",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#52",
+    "poisoned": false
+  },
+  "q22__clean__p4": {
+    "question_id": "q22",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#56",
+    "poisoned": false
+  },
+  "q22__clean__p5": {
+    "question_id": "q22",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#129",
+    "poisoned": false
+  },
+  "q22__benign_conflict__p1": {
+    "question_id": "q22",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#910",
+    "poisoned": false
+  },
+  "q22__benign_conflict__p2": {
+    "question_id": "q22",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#936",
+    "poisoned": false
+  },
+  "q22__benign_conflict__p3": {
+    "question_id": "q22",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#55",
+    "poisoned": false
+  },
+  "q22__benign_conflict__p4": {
+    "question_id": "q22",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#52",
+    "poisoned": false
+  },
+  "q22__benign_conflict__p5": {
+    "question_id": "q22",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#50",
+    "poisoned": false
+  },
+  "q22__minority_poison__p1": {
+    "question_id": "q22",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q22-0",
+    "poisoned": true
+  },
+  "q22__minority_poison__p2": {
+    "question_id": "q22",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#910",
+    "poisoned": false
+  },
+  "q22__minority_poison__p3": {
+    "question_id": "q22",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#936",
+    "poisoned": false
+  },
+  "q22__minority_poison__p4": {
+    "question_id": "q22",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#55",
+    "poisoned": false
+  },
+  "q22__minority_poison__p5": {
+    "question_id": "q22",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#52",
+    "poisoned": false
+  },
+  "q22__majority_poison__p1": {
+    "question_id": "q22",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q22-0",
+    "poisoned": true
+  },
+  "q22__majority_poison__p2": {
+    "question_id": "q22",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q22-1",
+    "poisoned": true
+  },
+  "q22__majority_poison__p3": {
+    "question_id": "q22",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q22-2",
+    "poisoned": true
+  },
+  "q22__majority_poison__p4": {
+    "question_id": "q22",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#910",
+    "poisoned": false
+  },
+  "q22__majority_poison__p5": {
+    "question_id": "q22",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#936",
+    "poisoned": false
+  },
+  "q23__clean__p1": {
+    "question_id": "q23",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#223",
+    "poisoned": false
+  },
+  "q23__clean__p2": {
+    "question_id": "q23",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#224",
+    "poisoned": false
+  },
+  "q23__clean__p3": {
+    "question_id": "q23",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#225",
+    "poisoned": false
+  },
+  "q23__clean__p4": {
+    "question_id": "q23",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#211",
+    "poisoned": false
+  },
+  "q23__clean__p5": {
+    "question_id": "q23",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#202",
+    "poisoned": false
+  },
+  "q23__benign_conflict__p1": {
+    "question_id": "q23",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#220",
+    "poisoned": false
+  },
+  "q23__benign_conflict__p2": {
+    "question_id": "q23",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#221",
+    "poisoned": false
+  },
+  "q23__benign_conflict__p3": {
+    "question_id": "q23",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#223",
+    "poisoned": false
+  },
+  "q23__benign_conflict__p4": {
+    "question_id": "q23",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#224",
+    "poisoned": false
+  },
+  "q23__benign_conflict__p5": {
+    "question_id": "q23",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#222",
+    "poisoned": false
+  },
+  "q23__minority_poison__p1": {
+    "question_id": "q23",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#220",
+    "poisoned": false
+  },
+  "q23__minority_poison__p2": {
+    "question_id": "q23",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#221",
+    "poisoned": false
+  },
+  "q23__minority_poison__p3": {
+    "question_id": "q23",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q23-0",
+    "poisoned": true
+  },
+  "q23__minority_poison__p4": {
+    "question_id": "q23",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#223",
+    "poisoned": false
+  },
+  "q23__minority_poison__p5": {
+    "question_id": "q23",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#224",
+    "poisoned": false
+  },
+  "q23__majority_poison__p1": {
+    "question_id": "q23",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#220",
+    "poisoned": false
+  },
+  "q23__majority_poison__p2": {
+    "question_id": "q23",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#221",
+    "poisoned": false
+  },
+  "q23__majority_poison__p3": {
+    "question_id": "q23",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q23-0",
+    "poisoned": true
+  },
+  "q23__majority_poison__p4": {
+    "question_id": "q23",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q23-1",
+    "poisoned": true
+  },
+  "q23__majority_poison__p5": {
+    "question_id": "q23",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q23-2",
+    "poisoned": true
+  },
+  "q24__clean__p1": {
+    "question_id": "q24",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#840",
+    "poisoned": false
+  },
+  "q24__clean__p2": {
+    "question_id": "q24",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#839",
+    "poisoned": false
+  },
+  "q24__clean__p3": {
+    "question_id": "q24",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#838",
+    "poisoned": false
+  },
+  "q24__clean__p4": {
+    "question_id": "q24",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#837",
+    "poisoned": false
+  },
+  "q24__clean__p5": {
+    "question_id": "q24",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#362",
+    "poisoned": false
+  },
+  "q24__benign_conflict__p1": {
+    "question_id": "q24",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#817",
+    "poisoned": false
+  },
+  "q24__benign_conflict__p2": {
+    "question_id": "q24",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#840",
+    "poisoned": false
+  },
+  "q24__benign_conflict__p3": {
+    "question_id": "q24",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#839",
+    "poisoned": false
+  },
+  "q24__benign_conflict__p4": {
+    "question_id": "q24",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#838",
+    "poisoned": false
+  },
+  "q24__benign_conflict__p5": {
+    "question_id": "q24",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#815",
+    "poisoned": false
+  },
+  "q24__minority_poison__p1": {
+    "question_id": "q24",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#817",
+    "poisoned": false
+  },
+  "q24__minority_poison__p2": {
+    "question_id": "q24",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#840",
+    "poisoned": false
+  },
+  "q24__minority_poison__p3": {
+    "question_id": "q24",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q24-0",
+    "poisoned": true
+  },
+  "q24__minority_poison__p4": {
+    "question_id": "q24",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#839",
+    "poisoned": false
+  },
+  "q24__minority_poison__p5": {
+    "question_id": "q24",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#838",
+    "poisoned": false
+  },
+  "q24__majority_poison__p1": {
+    "question_id": "q24",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#817",
+    "poisoned": false
+  },
+  "q24__majority_poison__p2": {
+    "question_id": "q24",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#840",
+    "poisoned": false
+  },
+  "q24__majority_poison__p3": {
+    "question_id": "q24",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q24-0",
+    "poisoned": true
+  },
+  "q24__majority_poison__p4": {
+    "question_id": "q24",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q24-1",
+    "poisoned": true
+  },
+  "q24__majority_poison__p5": {
+    "question_id": "q24",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q24-2",
+    "poisoned": true
+  },
+  "q25__clean__p1": {
+    "question_id": "q25",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#891",
+    "poisoned": false
+  },
+  "q25__clean__p2": {
+    "question_id": "q25",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#892",
+    "poisoned": false
+  },
+  "q25__clean__p3": {
+    "question_id": "q25",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#167",
+    "poisoned": false
+  },
+  "q25__clean__p4": {
+    "question_id": "q25",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1081",
+    "poisoned": false
+  },
+  "q25__clean__p5": {
+    "question_id": "q25",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#298",
+    "poisoned": false
+  },
+  "q25__benign_conflict__p1": {
+    "question_id": "q25",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#867",
+    "poisoned": false
+  },
+  "q25__benign_conflict__p2": {
+    "question_id": "q25",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#891",
+    "poisoned": false
+  },
+  "q25__benign_conflict__p3": {
+    "question_id": "q25",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#892",
+    "poisoned": false
+  },
+  "q25__benign_conflict__p4": {
+    "question_id": "q25",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#868",
+    "poisoned": false
+  },
+  "q25__benign_conflict__p5": {
+    "question_id": "q25",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#167",
+    "poisoned": false
+  },
+  "q25__minority_poison__p1": {
+    "question_id": "q25",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#867",
+    "poisoned": false
+  },
+  "q25__minority_poison__p2": {
+    "question_id": "q25",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q25-0",
+    "poisoned": true
+  },
+  "q25__minority_poison__p3": {
+    "question_id": "q25",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#891",
+    "poisoned": false
+  },
+  "q25__minority_poison__p4": {
+    "question_id": "q25",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#892",
+    "poisoned": false
+  },
+  "q25__minority_poison__p5": {
+    "question_id": "q25",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#868",
+    "poisoned": false
+  },
+  "q25__majority_poison__p1": {
+    "question_id": "q25",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#867",
+    "poisoned": false
+  },
+  "q25__majority_poison__p2": {
+    "question_id": "q25",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q25-0",
+    "poisoned": true
+  },
+  "q25__majority_poison__p3": {
+    "question_id": "q25",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q25-1",
+    "poisoned": true
+  },
+  "q25__majority_poison__p4": {
+    "question_id": "q25",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q25-2",
+    "poisoned": true
+  },
+  "q25__majority_poison__p5": {
+    "question_id": "q25",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#891",
+    "poisoned": false
+  },
+  "q26__clean__p1": {
+    "question_id": "q26",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#997",
+    "poisoned": false
+  },
+  "q26__clean__p2": {
+    "question_id": "q26",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#892",
+    "poisoned": false
+  },
+  "q26__clean__p3": {
+    "question_id": "q26",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1039",
+    "poisoned": false
+  },
+  "q26__clean__p4": {
+    "question_id": "q26",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#950",
+    "poisoned": false
+  },
+  "q26__clean__p5": {
+    "question_id": "q26",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#32",
+    "poisoned": false
+  },
+  "q26__benign_conflict__p1": {
+    "question_id": "q26",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#869",
+    "poisoned": false
+  },
+  "q26__benign_conflict__p2": {
+    "question_id": "q26",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#997",
+    "poisoned": false
+  },
+  "q26__benign_conflict__p3": {
+    "question_id": "q26",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#892",
+    "poisoned": false
+  },
+  "q26__benign_conflict__p4": {
+    "question_id": "q26",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#1039",
+    "poisoned": false
+  },
+  "q26__benign_conflict__p5": {
+    "question_id": "q26",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#950",
+    "poisoned": false
+  },
+  "q26__minority_poison__p1": {
+    "question_id": "q26",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#869",
+    "poisoned": false
+  },
+  "q26__minority_poison__p2": {
+    "question_id": "q26",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#997",
+    "poisoned": false
+  },
+  "q26__minority_poison__p3": {
+    "question_id": "q26",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q26-0",
+    "poisoned": true
+  },
+  "q26__minority_poison__p4": {
+    "question_id": "q26",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#892",
+    "poisoned": false
+  },
+  "q26__minority_poison__p5": {
+    "question_id": "q26",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#1039",
+    "poisoned": false
+  },
+  "q26__majority_poison__p1": {
+    "question_id": "q26",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#869",
+    "poisoned": false
+  },
+  "q26__majority_poison__p2": {
+    "question_id": "q26",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#997",
+    "poisoned": false
+  },
+  "q26__majority_poison__p3": {
+    "question_id": "q26",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q26-0",
+    "poisoned": true
+  },
+  "q26__majority_poison__p4": {
+    "question_id": "q26",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q26-1",
+    "poisoned": true
+  },
+  "q26__majority_poison__p5": {
+    "question_id": "q26",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q26-2",
+    "poisoned": true
+  },
+  "q27__clean__p1": {
+    "question_id": "q27",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#221",
+    "poisoned": false
+  },
+  "q27__clean__p2": {
+    "question_id": "q27",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#607",
+    "poisoned": false
+  },
+  "q27__clean__p3": {
+    "question_id": "q27",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#292",
+    "poisoned": false
+  },
+  "q27__clean__p4": {
+    "question_id": "q27",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#55",
+    "poisoned": false
+  },
+  "q27__clean__p5": {
+    "question_id": "q27",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#214",
+    "poisoned": false
+  },
+  "q27__benign_conflict__p1": {
+    "question_id": "q27",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#217",
+    "poisoned": false
+  },
+  "q27__benign_conflict__p2": {
+    "question_id": "q27",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#221",
+    "poisoned": false
+  },
+  "q27__benign_conflict__p3": {
+    "question_id": "q27",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#582",
+    "poisoned": false
+  },
+  "q27__benign_conflict__p4": {
+    "question_id": "q27",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#607",
+    "poisoned": false
+  },
+  "q27__benign_conflict__p5": {
+    "question_id": "q27",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#292",
+    "poisoned": false
+  },
+  "q27__minority_poison__p1": {
+    "question_id": "q27",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#217",
+    "poisoned": false
+  },
+  "q27__minority_poison__p2": {
+    "question_id": "q27",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q27-0",
+    "poisoned": true
+  },
+  "q27__minority_poison__p3": {
+    "question_id": "q27",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#221",
+    "poisoned": false
+  },
+  "q27__minority_poison__p4": {
+    "question_id": "q27",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#582",
+    "poisoned": false
+  },
+  "q27__minority_poison__p5": {
+    "question_id": "q27",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#607",
+    "poisoned": false
+  },
+  "q27__majority_poison__p1": {
+    "question_id": "q27",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#217",
+    "poisoned": false
+  },
+  "q27__majority_poison__p2": {
+    "question_id": "q27",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q27-0",
+    "poisoned": true
+  },
+  "q27__majority_poison__p3": {
+    "question_id": "q27",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q27-1",
+    "poisoned": true
+  },
+  "q27__majority_poison__p4": {
+    "question_id": "q27",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q27-2",
+    "poisoned": true
+  },
+  "q27__majority_poison__p5": {
+    "question_id": "q27",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#221",
+    "poisoned": false
+  },
+  "q28__clean__p1": {
+    "question_id": "q28",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1064",
+    "poisoned": false
+  },
+  "q28__clean__p2": {
+    "question_id": "q28",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1065",
+    "poisoned": false
+  },
+  "q28__clean__p3": {
+    "question_id": "q28",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1057",
+    "poisoned": false
+  },
+  "q28__clean__p4": {
+    "question_id": "q28",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1100",
+    "poisoned": false
+  },
+  "q28__clean__p5": {
+    "question_id": "q28",
+    "condition": "clean",
+    "original_passage_id": "Form 1040 Instructions 2025#1058",
+    "poisoned": false
+  },
+  "q28__benign_conflict__p1": {
+    "question_id": "q28",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#947",
+    "poisoned": false
+  },
+  "q28__benign_conflict__p2": {
+    "question_id": "q28",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#1064",
+    "poisoned": false
+  },
+  "q28__benign_conflict__p3": {
+    "question_id": "q28",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#1065",
+    "poisoned": false
+  },
+  "q28__benign_conflict__p4": {
+    "question_id": "q28",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2025#1057",
+    "poisoned": false
+  },
+  "q28__benign_conflict__p5": {
+    "question_id": "q28",
+    "condition": "benign_conflict",
+    "original_passage_id": "Form 1040 Instructions 2024#933",
+    "poisoned": false
+  },
+  "q28__minority_poison__p1": {
+    "question_id": "q28",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#947",
+    "poisoned": false
+  },
+  "q28__minority_poison__p2": {
+    "question_id": "q28",
+    "condition": "minority_poison",
+    "original_passage_id": "poison-q28-0",
+    "poisoned": true
+  },
+  "q28__minority_poison__p3": {
+    "question_id": "q28",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#1064",
+    "poisoned": false
+  },
+  "q28__minority_poison__p4": {
+    "question_id": "q28",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#1065",
+    "poisoned": false
+  },
+  "q28__minority_poison__p5": {
+    "question_id": "q28",
+    "condition": "minority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#1057",
+    "poisoned": false
+  },
+  "q28__majority_poison__p1": {
+    "question_id": "q28",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2024#947",
+    "poisoned": false
+  },
+  "q28__majority_poison__p2": {
+    "question_id": "q28",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q28-0",
+    "poisoned": true
+  },
+  "q28__majority_poison__p3": {
+    "question_id": "q28",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q28-1",
+    "poisoned": true
+  },
+  "q28__majority_poison__p4": {
+    "question_id": "q28",
+    "condition": "majority_poison",
+    "original_passage_id": "poison-q28-2",
+    "poisoned": true
+  },
+  "q28__majority_poison__p5": {
+    "question_id": "q28",
+    "condition": "majority_poison",
+    "original_passage_id": "Form 1040 Instructions 2025#1064",
+    "poisoned": false
+  }
+}

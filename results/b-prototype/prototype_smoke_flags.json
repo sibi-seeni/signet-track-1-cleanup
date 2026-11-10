@@ -1,0 +1,22 @@
+{
+  "schema_version": "0.1",
+  "question_id": "irs-01",
+  "flag": [
+    "outdated"
+  ],
+  "flags": [
+    {
+      "reason": "outdated",
+      "severity": "high",
+      "document_id": "irs-2024",
+      "passage_id": "irs-2024-p1",
+      "message": "IRS-1040-INSTR Tax Year 2024: SUPERSEDED, SUPERSEDED by Tax Year 2025; latest: Tax Year 2025.",
+      "evidence": "2024 Instructions for Form 1040",
+      "check": "freshness"
+    }
+  ],
+  "coverage": {
+    "documents_checked": 2,
+    "documents_total": 2
+  }
+}

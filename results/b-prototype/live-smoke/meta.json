@@ -1,0 +1,61 @@
+{
+  "experiment": "b-prototype",
+  "experiment_path": "experiments/b-prototype",
+  "harness_version": "signet-harness 0.1.0",
+  "stage": "smoke",
+  "models": [
+    {
+      "alias": "deepseek-flash",
+      "slug": "deepseek/deepseek-v4.1-flash",
+      "canonical": "deepseek/deepseek-v4.1-flash-20260910",
+      "reasoning_effort": "default"
+    },
+    {
+      "alias": "gemma-4-31b",
+      "slug": "google/gemma-4-31b-it",
+      "canonical": "google/gemma-4-31b-it-20260402",
+      "reasoning_effort": "on",
+      "provider_filter": {
+        "quantizations": [
+          "fp8",
+          "bf16",
+          "fp16",
+          "fp32"
+        ]
+      }
+    }
+  ],
+  "temperature": 0.0,
+  "top_k": 5,
+  "max_tool_steps": 4,
+  "judge_model": null,
+  "judge_canonical": null,
+  "judge_reasoning_effort": "low",
+  "embed_model": null,
+  "retrieval": "bm25",
+  "force_gold": true,
+  "arms": [
+    "plain",
+    "trust-layer"
+  ],
+  "seeds": [
+    0
+  ],
+  "condition": "normal",
+  "questions": [
+    "q01__clean",
+    "q01__minority_poison"
+  ],
+  "prompt_version": "b-v1",
+  "data_sha256": {
+    "exp3_harness_questions.json": "66fa6179b9e0e4f9767ba11c1ad4b7a4fe646a7917207487e5dbca054fb778ad",
+    "exp3_harness_docs.json": "8b86aa079cedb526db1971e2f7806bcabc0b0cdb9c6f0d65a09af8b7f43e329a",
+    "exp3_evaluation_labels.json": "0ae24a1106588e53994a267b0a46f739d0039fd8e3e87f986d8e40f8e05fefe5",
+    "registry.json": "3a12ba203e205e3e75745d778a55e81342fb6bcb6932d43520615be095c95216",
+    "clean_passages.jsonl": "6f0d96c35497c099e542eae9c50e1fa70b3a358c56fa8dc3d9fc0a36fc4c533c",
+    "DATASET_HASH.txt": "f8b2936ddfd70765103f17eb1dff748e9ded8aee67b0b42e3653a38b208a22b6"
+  },
+  "git_commit": "e28050d39ab3fa5aa09e75644b0d8e0c0d4b4439-dirty",
+  "config_file": "/Users/sibi/Downloads/Team_Signet_Part_B_Pilot/_harness/signet.toml",
+  "started": "2026-11-08T19:37:56.136618"
+}

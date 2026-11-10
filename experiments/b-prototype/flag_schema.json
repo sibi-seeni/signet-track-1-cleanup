@@ -1,0 +1,87 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Team Signet Part B Trust Flags",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "question_id",
+    "flag",
+    "flags"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "question_id": {
+      "type": "string"
+    },
+    "flag": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "outdated",
+          "conflicting_value",
+          "no_independent_reference",
+          "unverifiable",
+          "inconsistent",
+          "unable_to_verify"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "reason",
+          "severity",
+          "document_id",
+          "message",
+          "evidence",
+          "check"
+        ],
+        "properties": {
+          "reason": {
+            "type": "string",
+            "enum": [
+              "outdated",
+              "conflicting_value",
+              "no_independent_reference",
+              "unverifiable",
+              "inconsistent",
+              "unable_to_verify"
+            ]
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "document_id": {
+            "type": "string"
+          },
+          "passage_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "message": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "check": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

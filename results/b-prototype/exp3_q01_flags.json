@@ -1,0 +1,34 @@
+{
+  "schema_version": "0.1",
+  "question_id": "q01",
+  "flag": [
+    "conflicting_value"
+  ],
+  "flags": [
+    {
+      "reason": "conflicting_value",
+      "severity": "high",
+      "document_id": "Form 1040 Instructions 2025 (modified copy)",
+      "passage_id": "poison-q01-0",
+      "message": "Value conflicts with trusted source.",
+      "evidence": "Observed: ['$2240']; Reference: ['$2800']; Source: Form 1040 Instructions 2025#175",
+      "check": "reference_comparison"
+    }
+  ],
+  "coverage": {
+    "passages_checked": 1,
+    "passages_total": 1
+  },
+  "reference_match": {
+    "verified": true,
+    "conflict": true,
+    "reference_id": "Form 1040 Instructions 2025#175",
+    "observed_amounts": [
+      "$2240"
+    ],
+    "reference_amounts": [
+      "$2800"
+    ],
+    "similarity": 0.995
+  }
+}
