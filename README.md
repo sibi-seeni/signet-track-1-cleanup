@@ -103,6 +103,3 @@ Runs are cached in `_harness/.signet-cache/`, so rerunning the same thing is fre
 - Answer correctness isn't scored by the harness (no judge). `score_live_answers.py` labels
   each answer by the value it commits to. It was hand-checked on all plain-arm misses, with one manual override.
 - Two DeepSeek plain runs reasoned until the length limit and returned nothing ($0.14 of its cost).
-- Repo hygiene: `.gitignore` has `.DS_Store/`, which doesn't match the files, so `.DS_Store`
-  files got committed. Use `.DS_Store` without the slash. `_harness/` is committed as an
-  embedded repo pointer; better to add it to `.gitignore` and `git rm --cached _harness`.
