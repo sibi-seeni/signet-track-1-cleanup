@@ -1,0 +1,127 @@
+{
+  "_note": "Which fields are expected to change between editions of the Form 1040 instructions. Built from frozen_exp3/ground_truth.json (value_changed_between_editions). If the asked field changes, the prior-edition comparison returns 'could not verify' instead of comparing, because an edit and a real revision look the same. The 2025 values of changing fields are also ignored when they appear in other passages.",
+  "edition_compared": "2025",
+  "prior_edition": "2024",
+  "fields": {
+    "q01": {
+      "value_2025": "$2,800",
+      "value_2024": "$2,700",
+      "changes_between_editions": true,
+      "source_passage": "Form 1040 Instructions 2025#175"
+    },
+    "q02": {
+      "value_2025": "$23,500",
+      "value_2024": "$23,000",
+      "changes_between_editions": true,
+      "source_passage": "Form 1040 Instructions 2025#182"
+    },
+    "q03": {
+      "value_2025": "$108,000",
+      "value_2024": "$105,000",
+      "changes_between_editions": true,
+      "source_passage": "Form 1040 Instructions 2025#210"
+    },
+    "q04": {
+      "value_2025": "$2,700",
+      "value_2024": "$2,600",
+      "changes_between_editions": true,
+      "source_passage": "Form 1040 Instructions 2025#293"
+    },
+    "q08": {
+      "value_2025": "$525",
+      "value_2024": "$510",
+      "changes_between_editions": true,
+      "source_passage": "Form 1040 Instructions 2025#839"
+    },
+    "q09": {
+      "value_2025": "$20,116",
+      "value_2024": "$19,570",
+      "changes_between_editions": true,
+      "source_passage": "Form 1040 Instructions 2025#892"
+    },
+    "q11": {
+      "value_2025": "$10,918.20",
+      "value_2024": "$10,453.20",
+      "changes_between_editions": true,
+      "source_passage": "Form 1040 Instructions 2025#1100"
+    },
+    "q13": {
+      "value_2025": "$108.28",
+      "value_2024": null,
+      "changes_between_editions": false,
+      "source_passage": "Form 1040 Instructions 2025#63"
+    },
+    "q14": {
+      "value_2025": "$1,500",
+      "value_2024": null,
+      "changes_between_editions": false,
+      "source_passage": "Form 1040 Instructions 2025#201"
+    },
+    "q17": {
+      "value_2025": "$100,000",
+      "value_2024": null,
+      "changes_between_editions": false,
+      "source_passage": "Form 1040 Instructions 2025#293"
+    },
+    "q18": {
+      "value_2025": "$1,000",
+      "value_2024": null,
+      "changes_between_editions": false,
+      "source_passage": "Form 1040 Instructions 2025#794"
+    },
+    "q20": {
+      "value_2025": "$1,000",
+      "value_2024": null,
+      "changes_between_editions": false,
+      "source_passage": "Form 1040 Instructions 2025#1063"
+    },
+    "q21": {
+      "value_2025": "$54,000",
+      "value_2024": "$53,000",
+      "changes_between_editions": true,
+      "source_passage": "Form 1040 Instructions 2025#210"
+    },
+    "q22": {
+      "value_2025": "$5,200",
+      "value_2024": "$5,050",
+      "changes_between_editions": true,
+      "source_passage": "Form 1040 Instructions 2025#936"
+    },
+    "q23": {
+      "value_2025": "$3,000",
+      "value_2024": null,
+      "changes_between_editions": false,
+      "source_passage": "Form 1040 Instructions 2025#223"
+    },
+    "q24": {
+      "value_2025": "$5,000",
+      "value_2024": null,
+      "changes_between_editions": false,
+      "source_passage": "Form 1040 Instructions 2025#840"
+    },
+    "q25": {
+      "value_2025": "$100,000",
+      "value_2024": null,
+      "changes_between_editions": false,
+      "source_passage": "Form 1040 Instructions 2025#891"
+    },
+    "q26": {
+      "value_2025": "$600",
+      "value_2024": null,
+      "changes_between_editions": false,
+      "source_passage": "Form 1040 Instructions 2025#892"
+    },
+    "q27": {
+      "value_2025": "$1,000",
+      "value_2024": null,
+      "changes_between_editions": false,
+      "source_passage": "Form 1040 Instructions 2025#221"
+    },
+    "q28": {
+      "value_2025": "$200,000",
+      "value_2024": null,
+      "changes_between_editions": false,
+      "source_passage": "Form 1040 Instructions 2025#1064"
+    }
+  }
+}

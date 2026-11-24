@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Trust layer warning screen response",
+  "description": "What the backend sends the warning screen for one checked answer. The Nov 2 fields plus question_id, case, excerpt role, locator, model and generated_at. A copy lives in trust-the-source-frontend/schema/; keep them the same.",
+  "type": "object",
+  "required": ["question_id", "question", "answer", "status", "status_reason", "limits", "next_action",
+               "excerpts", "checks_run", "checks_failed", "model", "generated_at"],
+  "properties": {
+    "question_id": {"type": "string", "minLength": 1},
+    "case": {"type": "string"},
+    "question": {"type": "string", "minLength": 1},
+    "answer": {"type": "string"},
+    "status": {"enum": ["check_failed", "review_needed", "outdated", "not_verified", "all_clear"]},
+    "status_reason": {"type": "string", "minLength": 1},
+    "limits": {"type": "string", "minLength": 1},
+    "next_action": {"type": "string", "minLength": 1},
+    "excerpts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["label", "role", "text", "highlight", "doc_title", "doc_version", "locator", "source_url"],
+        "properties": {
+          "label": {"type": "string", "pattern": "^[A-Z]$"},
+          "role": {"enum": ["current", "older_edition", "prior_edition"]},
+          "text": {"type": "string", "minLength": 1},
+          "passage": {"type": "string"},
+          "highlight": {"type": "string"},
+          "doc_title": {"type": "string"},
+          "doc_version": {"type": "string"},
+          "locator": {"type": "string"},
+          "source_url": {"type": "string"}
+        }
+      }
+    },
+    "checks_run": {"type": "array", "items": {"type": "string"}},
+    "checks_failed": {"type": "array", "items": {"type": "string"}},
+    "model": {"type": "string"},
+    "generated_at": {"type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}Z$"}
+  },
+  "allOf": [
+    {"if": {"properties": {"status": {"const": "check_failed"}}},
+     "then": {"properties": {"checks_failed": {"minItems": 1}}}},
+    {"if": {"properties": {"status": {"const": "all_clear"}}},
+     "then": {"properties": {"checks_failed": {"maxItems": 0}}}}
+  ]
+}

@@ -11,7 +11,7 @@ from .reference_detector import get_matcher
 
 NAME = "b-prototype"
 RESULTS_SUBDIR = "b-prototype"
-PROMPT_VERSION = "b-v1"
+PROMPT_VERSION = "b-v2"  # v2: prior-edition (2024) reference, stability list, format-aware reader
 
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "data"
@@ -28,6 +28,7 @@ DATA_FILES = [
     LABEL_FILE,
     REGISTRY_FILE,
     FROZEN / "clean_passages.jsonl",
+    DATA_DIR / "stability.json",
     FROZEN / "DATASET_HASH.txt"
 ]
 
@@ -66,19 +67,27 @@ def retrieve(q, corpus, embedder=None):
     # Preserve the frozen top-5 and its original order.
     return corpus.get(q.gold_passages)
 
-def resources(condition):
-    return {
+def resources(condition, reference_file=None):
+    """The registry and the prior-edition matcher. If the matcher can't load (e.g. the
+    reference file is missing), the arm reports check_failed instead of crashing or passing."""
+    out = {
         "registry": freshness.MockRegistry.from_file(
             REGISTRY_FILE
         ),
-        "matcher": get_matcher()
+        "matcher": None,
+        "matcher_error": None,
     }
+    try:
+        out["matcher"] = get_matcher(*([reference_file] if reference_file else []))
+    except Exception as error:  # noqa: BLE001
+        out["matcher_error"] = f"{type(error).__name__}: {error}"
+    return out
 
 def trace_summary(trace):
     return {
         "check_invoked": any(
             e.get("type") == "tool_call"
-            and e.get("name") == "compare_trusted_reference"
+            and e.get("name") == "compare_prior_edition"
             for e in trace
         )
     }
