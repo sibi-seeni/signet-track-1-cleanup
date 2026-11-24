@@ -58,3 +58,11 @@ python -m pytest -q ../../tests/test_warning_screen.py
 Cases (any of the 20 test questions): `clean`, `both_editions` (Exp 3 benign_conflict set),
 `inplace_1` (answer passage replaced by attacked copy 1), `no_reference` (reference file missing).
 Run logs with full traces go to `results/b-prototype/demo-run/`.
+
+**Question wording.** The demo asks each test question in natural wording from `data/demo_questions.json`
+("What is the penalty for filing a frivolous tax return?") instead of the frozen fill-in-the-blank form, which
+stays in the harness data so earlier results remain comparable. The checks don't read the wording. On the real
+model (all 20 questions, clean and edited in place, Nov 24): changing fields 18/18 `not_verified`; clean stable
+10/11 `all_clear` (q26, the known limit); edited stable 10/11 `review_needed`. The miss is q23: two unedited 2025
+passages in the same retrieval set say $3,000, the model answered $3,000, and that matches 2024, so the answer
+is shown as checked. The edited passage is still flagged in the flag report.

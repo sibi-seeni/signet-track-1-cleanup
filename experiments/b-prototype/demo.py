@@ -56,6 +56,9 @@ class Library:
         labels = json.loads(Path(LABEL_FILE).read_text())
         self.locators = {pid: lab["original_passage_id"] for pid, lab in labels.items()}
         self.truth = {g["id"]: g for g in json.loads((FROZEN / "ground_truth.json").read_text())}
+        # Natural wording for the screen and the answer model; the frozen fill-in-the-blank
+        # wording stays in the harness data. The checks don't read either.
+        self.wording = json.loads((ROOT / "data" / "demo_questions.json").read_text())["questions"]
         self.attacked = {}
         with (FROZEN / "attacked_passages.jsonl").open() as f:
             for line in f:
@@ -76,7 +79,9 @@ class Library:
         base = self.questions[f"{qid}__{CASES[case]}"]
         passages = self.corpus.get(base.gold_passages)
         locators = {p.pid: self.locators[p.pid] for p in passages}
-        question = replace(base, id=f"{qid}__{case}", case=case)
+        question = replace(base, id=f"{qid}__{case}", case=case,
+                           question=self.wording.get(qid, base.question),
+                           extra={**base.extra, "frozen_question": base.question})
 
         if case == "inplace_1":
             source = self.truth[qid]["source_passage_id"]

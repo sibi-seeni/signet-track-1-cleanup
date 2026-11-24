@@ -95,7 +95,7 @@
       "role": "main",
       "model": "deepseek/deepseek-v4.1-flash",
       "model_version": "deepseek/deepseek-v4.1-flash",
-      "provider": "Alibaba",
+      "provider": "River",
       "config": {
         "seed": 0,
         "temperature": 0.0,
@@ -112,18 +112,18 @@
         },
         {
           "role": "user",
-          "content": "Question: According to the 2025 instructions, what amount fills the blank? \"In addition to any other penalties, the law imposes a penalty of _____ for filing a frivolous return.\"\n\nRetrieved passages with trust assessments:\n\n[1] Source: form_1040_instructions_2025.txt | Form 1040 Instructions 2025\nTrust assessment: Registry: IRS-1040-INSTR Tax Year 2025: CURRENT; latest: Tax Year 2025.\nPrior-edition comparison: did not run. This passage was not checked.\nto any unpaid tax on the return. This penal- ty is in addition to interest charges on late payments. Frivolous return. In addition to any other penalties, the law imposes a penal- ty of $5,000 for filing a frivolous return. A frivolous return is one that doesn’t contain information needed to figure the correct tax or shows a substantially in- correct tax because you take a frivolous position or desire to delay or interfere with the tax laws. This includes altering or striking out the preprinted language above the space where you sign. For a list of positions identified as frivolous, see Notice 2010-33, 2010-17 I.R.B. 609, available at IRS.gov/irb/ 2010-17_IRB#NOT-2010-33. Other. Other penalties can be imposed for, among other\n\n[2] Source: form_1040_instructions_2025.txt | Form 1040 Instructions 2025\nTrust assessment: Registry: IRS-1040-INSTR Tax Year 2025: CURRENT; latest: Tax Year 2025.\nPrior-edition comparison: did not run. This passage was not checked.\nas much as 25% of the tax due. The penalty is 15% per month, up to a maximum of 75%, if the failure to file is fraudulent. If your return is more than 60 days late, the minimum penalty will be $525 or the amount of any tax you owe, whichever is smaller. Late payment of tax. If you pay your taxes late, the penalty is usually 1/2 of 1% of the unpaid amount for each month or part of a month the tax isn’t paid. The penalty can be as much as 25% of the unpaid amount. It applies to any unpaid tax on the return. This penal- ty is in addition to interest charges on late payments. Frivolous\n\n[3] Source: form_1040_instructions_2025.txt | Form 1040 Instructions 2025\nTrust assessment: Registry: IRS-1040-INSTR Tax Year 2025: CURRENT; latest: Tax Year 2025.\nPrior-edition comparison: did not run. This passage was not checked.\npenalties im- posed for failure to file, negligence, fraud, substantial or gross valuation mis- statements, substantial understatements of tax, and reportable transaction under- statements. Interest is charged on the penalty from the due date of the return (including extensions). Penalties Late filing. If you don’t file your return by the due date (including extensions), the penalty is usually 5% of the amount due for each month or part of a month your return is late, unless you have a reasonable explanation. If you have a reasonable explanation for filing late, in- clude it with your return. The penalty can be as much as 25% of the tax due. The penalty is 15% per month, up to a maximum of 75%,\n\n[4] Source: form_1040_instructions_2025.txt | Form 1040 Instructions 2025\nTrust assessment: Registry: IRS-1040-INSTR Tax Year 2025: CURRENT; latest: Tax Year 2025.\nPrior-edition comparison: did not run. This passage was not checked.\nany amount due. If you choose to include interest or penalties (other than the estimated tax penalty) with your payment, identify and enter the amount in the bottom margin of Form 1040 or 1040-SR, page 2. Don’t include interest or penalties (other than the estimated tax penalty) in the amount you owe on line 37. For more informa- tion on the estimated tax penalty, see Line 38, earlier. Interest We will charge you interest on taxes not paid by their due date, even if an exten- sion of time to file is granted. We will also charge you interest on penalties im- posed for failure to file, negligence, fraud, substantial or gross valuation mis- statements, substantial understatements of tax, and\n\n[5] Source: form_1040_instructions_2025.txt | Form 1040 Instructions 2025\nTrust assessment: Registry: IRS-1040-INSTR Tax Year 2025: CURRENT; latest: Tax Year 2025.\nPrior-edition comparison: did not run. This passage was not checked.\nyou are married, but not filing a joint return, had a qualifying child who lived with you in the United States for more than half of 2025, and either of the following apply, you can claim the EIC if: • You lived apart from your spouse for the last 6 months of 2025, or • You are legally separated according to your state law un- der a written separation agreement or a decree of separate main- tenance and you didn’t live in the same household as your spouse at the end of 2025. If you meet these requirements, make sure you check the box in the Dependents section that discusses the special rule for sepa- rated spouses on page 1"
+          "content": "Question: What is the penalty for filing a frivolous tax return?\n\nRetrieved passages with trust assessments:\n\n[1] Source: form_1040_instructions_2025.txt | Form 1040 Instructions 2025\nTrust assessment: Registry: IRS-1040-INSTR Tax Year 2025: CURRENT; latest: Tax Year 2025.\nPrior-edition comparison: did not run. This passage was not checked.\nto any unpaid tax on the return. This penal- ty is in addition to interest charges on late payments. Frivolous return. In addition to any other penalties, the law imposes a penal- ty of $5,000 for filing a frivolous return. A frivolous return is one that doesn’t contain information needed to figure the correct tax or shows a substantially in- correct tax because you take a frivolous position or desire to delay or interfere with the tax laws. This includes altering or striking out the preprinted language above the space where you sign. For a list of positions identified as frivolous, see Notice 2010-33, 2010-17 I.R.B. 609, available at IRS.gov/irb/ 2010-17_IRB#NOT-2010-33. Other. Other penalties can be imposed for, among other\n\n[2] Source: form_1040_instructions_2025.txt | Form 1040 Instructions 2025\nTrust assessment: Registry: IRS-1040-INSTR Tax Year 2025: CURRENT; latest: Tax Year 2025.\nPrior-edition comparison: did not run. This passage was not checked.\nas much as 25% of the tax due. The penalty is 15% per month, up to a maximum of 75%, if the failure to file is fraudulent. If your return is more than 60 days late, the minimum penalty will be $525 or the amount of any tax you owe, whichever is smaller. Late payment of tax. If you pay your taxes late, the penalty is usually 1/2 of 1% of the unpaid amount for each month or part of a month the tax isn’t paid. The penalty can be as much as 25% of the unpaid amount. It applies to any unpaid tax on the return. This penal- ty is in addition to interest charges on late payments. Frivolous\n\n[3] Source: form_1040_instructions_2025.txt | Form 1040 Instructions 2025\nTrust assessment: Registry: IRS-1040-INSTR Tax Year 2025: CURRENT; latest: Tax Year 2025.\nPrior-edition comparison: did not run. This passage was not checked.\npenalties im- posed for failure to file, negligence, fraud, substantial or gross valuation mis- statements, substantial understatements of tax, and reportable transaction under- statements. Interest is charged on the penalty from the due date of the return (including extensions). Penalties Late filing. If you don’t file your return by the due date (including extensions), the penalty is usually 5% of the amount due for each month or part of a month your return is late, unless you have a reasonable explanation. If you have a reasonable explanation for filing late, in- clude it with your return. The penalty can be as much as 25% of the tax due. The penalty is 15% per month, up to a maximum of 75%,\n\n[4] Source: form_1040_instructions_2025.txt | Form 1040 Instructions 2025\nTrust assessment: Registry: IRS-1040-INSTR Tax Year 2025: CURRENT; latest: Tax Year 2025.\nPrior-edition comparison: did not run. This passage was not checked.\nany amount due. If you choose to include interest or penalties (other than the estimated tax penalty) with your payment, identify and enter the amount in the bottom margin of Form 1040 or 1040-SR, page 2. Don’t include interest or penalties (other than the estimated tax penalty) in the amount you owe on line 37. For more informa- tion on the estimated tax penalty, see Line 38, earlier. Interest We will charge you interest on taxes not paid by their due date, even if an exten- sion of time to file is granted. We will also charge you interest on penalties im- posed for failure to file, negligence, fraud, substantial or gross valuation mis- statements, substantial understatements of tax, and\n\n[5] Source: form_1040_instructions_2025.txt | Form 1040 Instructions 2025\nTrust assessment: Registry: IRS-1040-INSTR Tax Year 2025: CURRENT; latest: Tax Year 2025.\nPrior-edition comparison: did not run. This passage was not checked.\nyou are married, but not filing a joint return, had a qualifying child who lived with you in the United States for more than half of 2025, and either of the following apply, you can claim the EIC if: • You lived apart from your spouse for the last 6 months of 2025, or • You are legally separated according to your state law un- der a written separation agreement or a decree of separate main- tenance and you didn’t live in the same household as your spouse at the end of 2025. If you meet these requirements, make sure you check the box in the Dependents section that discusses the special rule for sepa- rated spouses on page 1"
         }
       ],
       "response_message": {
         "role": "assistant",
-        "content": "The 2025 instructions state that the penalty is **$5,000** for filing a frivolous return [1].",
+        "content": "The law imposes a penalty of $5,000 for filing a frivolous return, in addition to any other penalties [1].",
         "refusal": null,
-        "reasoning": "We need answer one/two plain sentences. Need cite relevant passage [1]. User asks amount. Answer: $5,000. Need maybe say per 2025 instructions penalty is $5,000 [1]. One sentence. Ensure not mention checks.",
+        "reasoning": "The user asks: penalty for filing a frivolous tax return. Passage [1] says $5,000. Cite [1].",
         "reasoning_details": [
           {
             "type": "reasoning.text",
-            "text": "We need answer one/two plain sentences. Need cite relevant passage [1]. User asks amount. Answer: $5,000. Need maybe say per 2025 instructions penalty is $5,000 [1]. One sentence. Ensure not mention checks.",
+            "text": "The user asks: penalty for filing a frivolous tax return. Passage [1] says $5,000. Cite [1].",
             "format": "unknown",
             "index": 0
           }
@@ -131,13 +131,13 @@
       },
       "finish_reason": "stop",
       "usage": {
-        "prompt": 1310,
-        "output": 27,
-        "thoughts": 52,
+        "prompt": 1286,
+        "output": 28,
+        "thoughts": 27,
         "cached": 0
       },
-      "cost_usd": 0.00014634,
-      "latency_s": 1.949
+      "cost_usd": 0.00018072,
+      "latency_s": 2.432
     }
   ],
   "flag_report": {
@@ -166,6 +166,6 @@
   "errors": {
     "prior_edition_comparison": "RuntimeError: FileNotFoundError: prior-edition reference file is missing: reference_removed_for_demo.jsonl"
   },
-  "cost_usd": 0.00014634,
-  "latency_s": 1.96
+  "cost_usd": 0.00018072,
+  "latency_s": 2.44
 }
