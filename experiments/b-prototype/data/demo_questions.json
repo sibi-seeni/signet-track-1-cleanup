@@ -1,0 +1,25 @@
+{
+  "_note": "How each test question is worded on the warning screen and to the answer model in the demo (make_demo_json.py, live_server.py). Each asks for the same value as the frozen Exp 3 fill-in-the-blank question in frozen_exp3/ground_truth.json, phrased the way an analyst would ask it. The harness experiment (exp3_harness_questions.json) keeps the frozen wording, so earlier results stay comparable. The checks don't read the wording: they work from the question id and the passages.",
+  "questions": {
+    "q01": "Below what amount of 2025 wages is an employer not required to give a household employee a Form W-2?",
+    "q02": "What is the 2025 limit on elective deferrals to retirement plans, above which the excess goes on line 1h?",
+    "q03": "What is the most I can give through qualified charitable distributions (QCDs) from my IRA in 2025?",
+    "q04": "Above what amount of unearned income does a child under 18 have to use Form 8615?",
+    "q08": "What is the minimum penalty if a 2025 return is filed more than 60 days late?",
+    "q09": "How much in gifts from a foreign corporation or partnership triggers a reporting requirement for 2025?",
+    "q11": "Above what amount of social security tax withheld can I claim a credit for the excess in 2025?",
+    "q13": "How much in wages from a church that is exempt from social security and Medicare taxes means I have to file?",
+    "q14": "At what total of interest or dividends do I need to attach Schedule B?",
+    "q17": "At what taxable income should I use the Tax Computation Worksheet instead of the Tax Table?",
+    "q18": "How small does my expected refund or balance due need to be so I don't have to make estimated tax payments?",
+    "q20": "How much in cash wages to household employees in a quarter means I have to file Schedule H?",
+    "q21": "What is the most I can give in a one-time QCD to a split-interest entity in 2025?",
+    "q22": "How much gross income can a relative have in 2025 and still be claimed as my dependent?",
+    "q23": "How much of the health insurance premiums paid from my pension can I exclude from income as a retired public safety officer?",
+    "q24": "What is the penalty for filing a frivolous tax return?",
+    "q25": "How large does a gift or bequest from a foreign individual have to be before I must report it?",
+    "q26": "What is the maximum educator expense deduction for a married couple filing jointly when both are eligible educators?",
+    "q27": "How much does the IRS charge to figure the taxable part of my pension or annuity for me?",
+    "q28": "Above what wages might my employer withhold Additional Medicare Tax if I'm married filing jointly?"
+  }
+}
